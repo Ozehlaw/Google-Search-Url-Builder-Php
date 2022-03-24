@@ -1,0 +1,8 @@
+//Define two string values
+$str1 = "https://google.com/search?q=";
+$str2 = "Best seo company in Nigeria";
+$str1 .= str_replace(' ', '+', $str2);
+
+
+//Print the concatenated strings
+echo $str1;
